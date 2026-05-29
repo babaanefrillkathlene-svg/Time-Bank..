@@ -1,0 +1,66 @@
+*{
+.online-tutors{
+background:white;
+padding:20px;
+border-radius:20px;
+margin-top:30px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.online-tutors h3{
+color:var(--b);
+margin-bottom:20px;
+}
+
+.tutor-online{
+display:flex;
+align-items:center;
+gap:10px;
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+.tutor-avatar{
+width:45px;
+height:45px;
+border-radius:50%;
+background:var(--b);
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+}
+
+.tutor-info{
+flex:1;
+}
+
+.tutor-subjects span{
+background:var(--l);
+padding:3px 10px;
+border-radius:10px;
+font-size:0.7rem;
+margin-right:5px;
+}
+
+.online-dot{
+width:10px;
+height:10px;
+background:var(--ok);
+border-radius:50%;
+}
+
+.conn-status{
+position:fixed;
+top:10px;
+right:10px;
+background:white;
+padding:8px 12px;
+border-radius:10px;
+font-size:0.8rem;
+}
+
+.toast{
+display:none;
+}
